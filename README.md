@@ -4,7 +4,7 @@ This Terraform module provisions a **secure, scalable 3-tier VPC network** in AW
 
 ---
 
-## 📐 Architecture Overview
+## Architecture Overview
 
 The module creates:
 
@@ -18,7 +18,7 @@ The module creates:
 - ✅ Subnet tags (`web`, `app`, `db`) for grouping and autoscaling
 
 
-## 🚀 Features
+## Features
 
 - 🧱 **3-tier design**: Separate web, app, and db layers
 - 🌍 **Highly available**: Subnets span across AZs
@@ -28,7 +28,7 @@ The module creates:
 ---
 
 
-## ✨ Getting Started
+## Getting Started
 
 ### 1. Prerequisites
 
@@ -38,5 +38,5 @@ The module creates:
 ### 2. Clone the Repo
 
 ```bash
-git clone https://github.com/yourname/terraform-aws-3tier-vpc.git
+git clone https://github.com/kubegrind/terraform-aws-3tier-vpc.git
 cd terraform-aws-3tier-vpc

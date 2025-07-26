@@ -65,3 +65,31 @@ The module creates:
 
 ## 📦 Module Structure
 
+terraform-aws-3tier-vpc/
+├── main.tf # Root Terraform configuration
+├── variables.tf # Input variable definitions
+├── outputs.tf # Output values
+├── terraform.tfvars # Example values
+├── modules/
+│ └── network/
+│ ├── main.tf
+│ ├── variables.tf
+│ └── outputs.tf
+├── README.md
+└── LICENSE
+
+
+---
+
+## ✨ Getting Started
+
+### 1. Prerequisites
+
+- Terraform >= 1.2.0
+- AWS credentials configured (`~/.aws/credentials` or environment variables)
+
+### 2. Clone the Repo
+
+```bash
+git clone https://github.com/yourname/terraform-aws-3tier-vpc.git
+cd terraform-aws-3tier-vpc
